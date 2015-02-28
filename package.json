@@ -31,7 +31,8 @@
     "sniper": "biojs-sniper ."
   },
   "dependencies": {
-    "biojs-io-snipspector": "0.0.8"
+    "biojs-io-snipspector": "0.0.8",
+    "d3": "^3.5.5"
   },
   "devDependencies": {
     "mkdirp": "^0.5.0",
@@ -42,13 +43,13 @@
   },
   "sniper": {
     "js": [
-      "/build/snipspector.js",""
+      "/build/snipspector.js",
+      ""
     ],
     "snippets": [
       "examples"
     ],
-    "css": [
-    ],
+    "css": [],
     "first": "simple"
   },
   "keywords": [

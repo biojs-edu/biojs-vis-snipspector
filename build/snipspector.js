@@ -1,11 +1,11 @@
-require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/index.js":[function(require,module,exports){
 /*
  * index.js imports all files which are required in './src/index.js'
  * it is then used by browser.js and browserify to compile a min.js file in the build folder
  */
 module.exports = require('./src/index');
 
-},{"./src/index":10}],2:[function(require,module,exports){
+},{"./src/index":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/src/index.js"}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/index.js":[function(require,module,exports){
 var req = require('request')
 
 module.exports = Nets
@@ -13,7 +13,7 @@ module.exports = Nets
 function Nets(uri, opts, cb) {
   req(uri, opts, cb)
 }
-},{"request":3}],3:[function(require,module,exports){
+},{"request":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/index.js"}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/index.js":[function(require,module,exports){
 var window = require("global/window")
 var once = require("once")
 var parseHeaders = require('parse-headers')
@@ -192,7 +192,7 @@ function createXHR(options, callback) {
 
 function noop() {}
 
-},{"global/window":4,"once":5,"parse-headers":9}],4:[function(require,module,exports){
+},{"global/window":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/global/window.js","once":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/once/once.js","parse-headers":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
 (function (global){
 if (typeof window !== "undefined") {
     module.exports = window;
@@ -205,7 +205,7 @@ if (typeof window !== "undefined") {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],5:[function(require,module,exports){
+},{}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
 module.exports = once
 
 once.proto = once(function () {
@@ -226,7 +226,7 @@ function once (fn) {
   }
 }
 
-},{}],6:[function(require,module,exports){
+},{}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
 var isFunction = require('is-function')
 
 module.exports = forEach
@@ -274,7 +274,7 @@ function forEachObject(object, iterator, context) {
     }
 }
 
-},{"is-function":7}],7:[function(require,module,exports){
+},{"is-function":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
 module.exports = isFunction
 
 var toString = Object.prototype.toString
@@ -291,7 +291,7 @@ function isFunction (fn) {
       fn === window.prompt))
 };
 
-},{}],8:[function(require,module,exports){
+},{}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
 
 exports = module.exports = trim;
 
@@ -307,7 +307,7 @@ exports.right = function(str){
   return str.replace(/\s*$/, '');
 };
 
-},{}],9:[function(require,module,exports){
+},{}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
 var trim = require('trim')
   , forEach = require('for-each')
   , isArray = function(arg) {
@@ -339,7 +339,7 @@ module.exports = function (headers) {
 
   return result
 }
-},{"for-each":6,"trim":8}],10:[function(require,module,exports){
+},{"for-each":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/src/index.js":[function(require,module,exports){
 /*
 * Welcome to the biojs tutorial. 
 * You can find the documentation about this tutorial here
@@ -422,7 +422,7 @@ snipspector.parse = function(data) {
 
 module.exports = snipspector; // Export the object for other components
 
-},{"nets":2}],11:[function(require,module,exports){
+},{"nets":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/node_modules/nets/index.js"}],"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/d3/d3.js":[function(require,module,exports){
 !function() {
   var d3 = {
     version: "3.5.5"
@@ -9928,91 +9928,91 @@ module.exports = snipspector; // Export the object for other components
   this.d3 = d3;
 }();
 },{}],"snipspector":[function(require,module,exports){
-
-require("d3");
+var d3 = require("d3");
 var parser = require("biojs-io-snipspector");
 
-function d3_show() {
+var vis = function(opts) {
 
- var width = 960,
-            height = 500,
-            radius = Math.min(width, height) / 2;
+  var width = 960,
+    height = 500,
+    radius = Math.min(width, height) / 2;
 
-        var color = d3.scale.category10();
+  var color = d3.scale.category10();
 
-        var arc = d3.svg.arc()
-                    .outerRadius(radius - 10)
-                    .innerRadius(radius - 150);
+  var arc = d3.svg.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(radius - 150);
 
-        var pie = d3.layout.pie()
-                    .sort(null)
-                    .value(function (d) {
-                        return d.number;
-                    });
-    
-function converter(genome){
-        var data_res = [];
+  var pie = d3.layout.pie()
+    .sort(null)
+    .value(function(d) {
+      return d.number;
+    });
 
-        for (var k = 0; k < 25; k++) {
-                    var data = [{
-                        category: "del",
-                        number: genome[k].del
-            }, {
-                        category: "hetero",
-                        number: genome[k].hetero
-            }, {
-                        category: "homo",
-                        number: genome[k].homo
-            }];
+  function converter(genome) {
+    var data_res = [];
+
+    for (var k = 0; k < 25; k++) {
+      var data = [{
+        category: "del",
+        number: genome[k].del
+      }, {
+        category: "hetero",
+        number: genome[k].hetero
+      }, {
+        category: "homo",
+        number: genome[k].homo
+      }];
 
 
-                    var data_wrapper = [{
-                        name: genome[k].name,
-                        data: data
-            }];
+      var data_wrapper = [{
+        name: genome[k].name,
+        data: data
+      }];
 
-                    data_res = data_res.concat(data_wrapper);
+      data_res = data_res.concat(data_wrapper);
 
-        }
+    }
 
-        return data_res;
-}
+    return data_res;
+  }
 
-parser.read("http://files.biojs.net/chromosomes/manny", function(result){
-  var data_res = converter(result);
-  
-  var X_data = data_res[22].data;
-        
-        var svg = d3.select("body").append("svg")
-                    .attr("width", width)
-                    .attr("height", height)
-                    .append("g")
-                    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+  parser.read("http://files.biojs.net/chromosomes/manny", function(result) {
+    var data_res = converter(result);
 
-        var g = svg.selectAll(".arc")
-                    .data(pie(X_data))
-                    .enter().append("g")
-                    .attr("class", "arc");
+    var X_data = data_res[22].data;
 
-        g.append("path")
-            .attr("d", arc)
-            .style("fill", function (d) {
-                    return color(d.data.category);
-                });
+    var svg = d3.select(opts.el).append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .append("g")
+      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-        g.append("text")
-            .attr("transform", function (d) {
-                    return "translate(" + arc.centroid(d) + ")";
-                })
-            .attr("dy", ".35em")
-            .style("text-anchor", "middle")
-            .text(function (d) {
-                    return d.data.category;
-                });
-  
-})
+    var g = svg.selectAll(".arc")
+      .data(pie(X_data))
+      .enter().append("g")
+      .attr("class", "arc");
 
-}
+    g.append("path")
+      .attr("d", arc)
+      .style("fill", function(d) {
+        return color(d.data.category);
+      });
 
-module.exports = d3_show;
-},{"biojs-io-snipspector":1,"d3":11}]},{},[]);
+    g.append("text")
+      .attr("transform", function(d) {
+        return "translate(" + arc.centroid(d) + ")";
+      })
+      .attr("dy", ".35em")
+      .style("text-anchor", "middle")
+      .text(function(d) {
+        return d.data.category;
+      });
+
+  });
+
+};
+
+module.exports = vis;
+
+},{"biojs-io-snipspector":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/biojs-io-snipspector/index.js","d3":"/home/xsebi/ownCloud/projects/biojs.bak/packages/biojs-vis-snipspector/node_modules/d3/d3.js"}]},{},[]);
