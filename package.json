@@ -43,8 +43,7 @@
   },
   "sniper": {
     "js": [
-      "/build/snipspector.js",
-      ""
+      "/build/snipspector.js"
     ],
     "snippets": [
       "examples"
