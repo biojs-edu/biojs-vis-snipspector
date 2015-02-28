@@ -3,11 +3,12 @@
 > Tutorial visualisation component
 
 ## Getting Started
-Install the module with: `npm install snipspector`
+
+Install the module with: `npm install biojs-vis-snipspector`
 
 ```javascript
-var d3_show = require('snipspector');
-d3_show(); // "creates pie chart"
+var vis = require('biojs-vis-snipspector');
+var v = new vis({el: yourDiv, url: "http://files.biojs.net/chromosomes/manny"});
 ```
 
 ## Documentation
@@ -20,12 +21,13 @@ All contributions are welcome.
 
 ## Support
 
-If you have any problem or suggestion please open an issue [here](https://github.com/David/snipspector/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/biojs-edu/biojs-vis-snipspector/issues).
 
 ## License 
+
 This software is licensed under the Apache 2 license, quoted below.
 
-Copyright (c) 2015, David
+Copyright (c) 2015, BioJS
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License. You may obtain a copy of
