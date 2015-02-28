@@ -1,32 +1,32 @@
 {
-  "name": "snipspector",
+  "name": "biojs-vis-snipspector",
   "description": "Tutorial visualisation component",
   "version": "0.1.0",
-  "homepage": "https://github.com/David/snipspector",
+  "homepage": "https://github.com/biojs-edu/biojs-vis-snipspector",
   "author": {
-    "name": "David",
-    "email": "contact.daviddao@gmail.com"
+    "name": "biojs-edu",
+    "email": "contact.biojs-edudao@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/David/snipspector.git"
+    "url": "git://github.com/biojs-edu/biojs-vis-snipspector.git"
   },
   "bugs": {
-    "url": "https://github.com/David/snipspector/issues"
+    "url": "https://github.com/biojs-edu/biojs-vis-snipspector/issues"
   },
   "licenses": [
     {
       "type": "Apache 2",
-      "url": "https://github.com/David/snipspector/blob/master/LICENSE"
+      "url": "https://github.com/biojs-edu/biojs-vis-snipspector/blob/master/LICENSE"
     }
   ],
   "main": "lib/index.js",
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1",
-    "build": "mkdirp build && browserify -r ./:snipspector -o build/snipspector.js",
+    "build": "mkdirp build && browserify -r ./:biojs-vis-snipspector -o build/biojs-vis-snipspector.js",
     "build-browser": "npm run build",
     "prepublish": "npm run build",
-    "watch": "watchify -r ./:snipspector -v -o build/snipspector.js",
+    "watch": "watchify -r ./:biojs-vis-snipspector -v -o build/biojs-vis-snipspector.js",
     "w": "prunner \"npm run sniper\" \"npm run watch\"",
     "sniper": "biojs-sniper ."
   },
@@ -43,7 +43,7 @@
   },
   "sniper": {
     "js": [
-      "/build/snipspector.js"
+      "/build/biojs-vis-snipspector.js"
     ],
     "snippets": [
       "examples"
