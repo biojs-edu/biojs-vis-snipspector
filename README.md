@@ -12,11 +12,7 @@ d3_show(); // "creates pie chart"
 
 ## Documentation
 
-How to use d3_show
-
-```javascript
-snipspector();
-```
+You can find documentation [here](http://edu.biojs.net/snipspector_adv/vis_d3/)
 
 ## Contributing
 
