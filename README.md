@@ -3,10 +3,10 @@
 > Tutorial visualisation component
 
 ## Getting Started
-Install the module with: `npm install snipspector`
+Install the module with: `npm install d3 --save`
 
 ```javascript
-var d3_show = require('snipspector');
+var d3 = require("d3");
 d3_show(); // "creates pie chart"
 ```
 
